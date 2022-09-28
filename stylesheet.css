@@ -100,6 +100,8 @@ nav ul li{
 main .section{
     height: 100vh;
     border-bottom: 2px solid var(--goldenLine);
+    font-family: 'Bellefair', serif;
+    font-weight: 300;
 }
 
 .subSection{
@@ -169,7 +171,93 @@ main .section{
     right: 0;
 }
 
+/*------------------SECTION Why You Should------------------*/
 
+.whyYouShould{
+    background: linear-gradient( rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81) ), url(./img/palmeras.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 10vw;
+}
+
+.whyYouShould h3{
+    width: 75vw;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 10vh;
+    margin-bottom: 20px;
+}
+
+.textWYS{
+    width: 60vw;
+    padding: 10vh 0vw;
+    border-bottom: 2px solid var(--goldenLine);
+    line-height: 30px;
+}
+
+.whyYouShould p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.scrollDown{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollDown p{
+    border-bottom: 2px solid var(--goldenLine);
+}
+
+.scrollDown img{
+    margin-top: 40px;
+    height: 50px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+/*------------------SECTION ------------------*/
+
+
+
+/*------------------SECTION ------------------*/
+
+
+
+/*------------------SECTION ------------------*/
+
+
+
+/*------------------SECTION ------------------*/
+
+
+
+/*------------------SECTION ------------------*/
+
+
+
+/*------------------SECTION ------------------*/
 
 
 
