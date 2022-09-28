@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    font-family: 'Bellefair', serif;
+}
+
+:root{
+    --navBarColor: rgba(20,44,83,.5);
+    --goldenLine: rgb(153,108,64);
+    --textWhiteB: rgba(241,241,241,255);
+    --footerColor: rgb(20,44,83);
+}
+
+/*----------------------------------------HEADER----------------------------------------*/
+
+.backVideoHeader{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: var(--textWhiteB);
+    background-color: rgba(0,0,0,.3);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin-bottom: 5vh;
+    background-color: var(--navBarColor);
+    border-bottom: 2px solid var(--goldenLine);
+    font-weight: 100;
+}
+
+.navMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.5vw;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    list-style: none;
+}
+
+nav ul li{
+    flex-grow: 1;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+
+.mainTitleContainer{
+    position: absolute;
+    left: 17vw;
+    top: 35vh;    
+}
+
+.nameTitle{
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nameTitle h2{
+    font-size: 7.5rem;
+}
+
+.nameTitle img{
+    height: 28vh;
+}
+
+.epigraph{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: -10vh;
+}
+
+.epigraph h3{
+    font-size: 1.5rem;
+}
+
+.epigraph img{
+    height: 8vh;
+    transform: scaleX(-1);
+}
+
+/*----------------------------------------BODY----------------------------------------*/
+
+/*---------------PARTE 1---------------*/
+/*---------------PARTE 2---------------*/
+/*---------------PARTE 3---------------*/
+/*---------------PARTE 4---------------*/
+
+
+/*----------------------------------------FOOTER----------------------------------------*/
+footer{
+    color: var(--textWhiteB);
+    height: 50vh;
+    background-color: var(--footerColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px  20px;
+    width: 85vw;
+    border-bottom: 2px solid var(--goldenLine);
+}
+
+.footerContainer div{
+    flex-grow: 1;
+}
+
+.contact{
+    display: flex;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.logos img{
+    height: 5vh;
+    margin-top: 2.5vh;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5vh;
+    margin-top: 2.5vh;
+}
+
+.information .infoTitle{
+    font-size: 1.45rem;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.legalInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev p{
+    margin-top: 5px;
+    font-size: 1.20rem;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia img{
+    margin: 0px 15px;
+}
+
+.footerEpigraph{
+    padding: 40px  20px;
+    width: 85vw;
+}
