@@ -48,14 +48,15 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
-    margin-left: 10vw;
+    margin-left: 5vw;
     list-style: none;
 }
 
 nav ul li{
     flex-grow: 1;
     text-decoration: none;
-    margin-left: 5vw;
+    margin-left: 2vw;
+    padding-right: 2vw;
 }
 
 .mainTitleContainer{
@@ -114,7 +115,7 @@ main .section{
 /*------------------SUBSECTION Contact Us------------------*/
 
 .contactUs{
-    background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81) ), url(./img/pexels-antonio-cuellar-4366062.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url(./img/pexels-antonio-cuellar-4366062.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -205,7 +206,7 @@ main .section{
 }
 
 .scrollDown{
-    margin-top: 15vh;
+    margin-top: 7vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,29 +238,124 @@ main .section{
     }
   }
 
-/*------------------SECTION ------------------*/
+/*------------------SECTION Paid Advertising on All Channels------------------*/
 
+.paidAAC{
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%), url(./img/paidAAC\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: var(--textWhiteB);
+    display: flex;
+    flex-direction: column;
+}
 
+.paidAACContainer{
+    height: 100vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    padding-right: 5vw;
+}
 
-/*------------------SECTION ------------------*/
+.paidAACContainer h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
 
+.paidAACContainer p{
+    font-size: 1.25rem;
+}
 
+/*------------------SECTION Expert Content Production------------------*/
 
-/*------------------SECTION ------------------*/
+.expertCP{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 100%), url(./img/expertCP-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--textWhiteB);
+    display: flex;
+    flex-direction: column;
+}
 
+.expertCPContainer{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vw;
+}
 
+.expertCPContainer h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
 
-/*------------------SECTION ------------------*/
+.expertCPContainer p{
+    font-size: 1.25rem;
+}
 
+/*------------------SECTION Effective Search Engine Optimization------------------*/
 
+.efectiveSEO{
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%), url(./img/efectiveSEO-background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: var(--textWhiteB);
+    display: flex;
+    flex-direction: column;
+}
 
-/*------------------SECTION ------------------*/
+.efectiveSEOContainer{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    padding-right: 5vw;
+}
 
+.efectiveSEOContainer h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
 
+.efectiveSEOContainer p{
+    font-size: 1.25rem;
+}
+/*------------------SECTION Social Media Marketing------------------*/
 
-/*------------------SECTION ------------------*/
+.socialMM{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 100%), url(./img/socialMM-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--textWhiteB);
+    display: flex;
+    flex-direction: column;
+}
 
+.socialMMContainer{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vw;
+}
 
+.socialMMContainer h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.socialMMContainer p{
+    font-size: 1.25rem;
+}
 
 /*------------------SUBSECTION Work With Us------------------*/
 
