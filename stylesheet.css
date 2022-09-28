@@ -550,3 +550,12 @@ footer{
         width: 85vw;
     }
 }
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: var(--footerColor);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--goldenLine);
+}
