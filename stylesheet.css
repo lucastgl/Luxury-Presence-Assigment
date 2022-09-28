@@ -97,14 +97,150 @@ nav ul li{
 
 /*----------------------------------------BODY----------------------------------------*/
 
-/*---------------PARTE 1---------------*/
-/*---------------PARTE 2---------------*/
-/*---------------PARTE 3---------------*/
-/*---------------PARTE 4---------------*/
+main .section{
+    height: 100vh;
+    border-bottom: 2px solid var(--goldenLine);
+}
+
+.subSection{
+    height: 50vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85) ), url(./img/pexels-antonio-cuellar-4366062.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*------------------SUBSECTION Contact Us------------------*/
+
+.contactUs{
+    background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81) ), url(./img/pexels-antonio-cuellar-4366062.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--textWhiteB);
+}
+
+.contactUs h3{
+    text-align: center;
+    width: 40vw;
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+
+}
+
+.contactButton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: var(--textWhiteB);
+    border: none;
+    color: var(--footerColor);
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 210px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.contactButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.contactButton span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.contactButton:hover span {
+    padding-right: 15px;
+}
+
+.contactButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+/*------------------SUBSECTION Work With Us------------------*/
+
+.workWithUs{
+    color: var(--textWhiteB);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.workWithUs h3{
+    text-align: center;
+    width: 30vw;
+    font-size: 2.5rem;
+    border-bottom: 2px solid var(--textWhiteB);
+    padding-bottom: 20px;
+
+}
+
+.workWithUs p{
+    margin: 40px 0px;
+    font-size: 1.5rem;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: var(--footerColor);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 15px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 
 
 /*----------------------------------------FOOTER----------------------------------------*/
 footer{
+    border-top: 2px solid var(--goldenLine);
     color: var(--textWhiteB);
     height: 50vh;
     background-color: var(--footerColor);
