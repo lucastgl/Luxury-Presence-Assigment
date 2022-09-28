@@ -75,12 +75,6 @@ nav ul li{
     font-size: 7.5rem;
 }
 
-@media screen and (max-width: 1482px)  {
-    .nameTitle h2{
-        font-size: 5rem;
-    }
-}
-
 .nameTitle img{
     height: 28vh;
 }
@@ -514,4 +508,45 @@ footer{
 .footerEpigraph{
     padding: 40px 10px 20px 10px;
     width: 85vw;
+}
+
+@media screen and (max-width: 1482px)  {
+    .nameTitle h2{
+        font-size: 5rem;
+    }
+
+    .whyYouShould h3{
+        width: 75vw;
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 10vh;
+        margin-bottom: 20px;
+    }
+    
+    .whyYouShould p{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .footerContainer{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px  20px;
+        width: 85vw;
+        border-bottom: 2px solid var(--goldenLine);
+    }
+
+    .logos img{
+        height: 5vh;
+        margin-top: 2vh;
+    }
+
+    .information .infoTitle{
+        font-size: 1rem;
+    }
+
+    .footerEpigraph{
+        padding: 10px 10px 2px 10px;
+        width: 85vw;
+    }
 }
